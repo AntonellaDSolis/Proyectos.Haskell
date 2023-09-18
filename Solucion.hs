@@ -1,6 +1,3 @@
--- (BORRAR COMENTARIO ANTES DE ENVIAR EL TP)
--- Comentario: Cambios que se realizaron en la revición 
-
 -- ej 1 : 
 -- -- "Proyectarnombres" : le agregue una funcion auxiliar que reune los nombres de todos los usuarios de la red, para que luego se pueda 
 -- eliminar todos los nombres repetidos. Debido que, si bien el "requiere: RedSocialValida " nos aseguraba tener ids no repetidos, los usuarios podian
@@ -31,14 +28,6 @@
 -- un requisito en la especificacion.
 
 module Solucion where
-
--- Completar con los datos del grupo
-
--- Nombre de Grupo: xx
--- Integrante 1: Antonella Daiana Solis, forever.anti456@gmail.com , 558/22
--- Integrante 2: Nombre Apellido, email, LU
--- Integrante 3: Nombre Apellido, email, LU
--- Integrante 4: Nombre Apellido, email, LU
 
 type Usuario = (Integer, String)
 type Relacion = (Usuario, Usuario)
